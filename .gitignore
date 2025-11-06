@@ -1,0 +1,41 @@
+# Java-specific ignores
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
+hs_err_pid*
+
+# Maven/Gradle build artifacts
+/target/
+/build/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+# Eclipse/IntelliJ IDEA/NetBeans project files
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+*.iws
+*.ipr
+nbproject/
+build/
+dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Selenium-related output and logs
+/test-output/
+/screenshots/
+/reports/
+*.log
+*.tmp
