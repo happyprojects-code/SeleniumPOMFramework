@@ -16,8 +16,6 @@ public class BaseTest {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-		driver.get("https://admin-demo.nopcommerce.com/admin/");
-
 	}
 
 	@AfterMethod

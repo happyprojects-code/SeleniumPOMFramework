@@ -1,6 +1,8 @@
 <suite name="Login Suite">
 	<test name="LoginTests">
 		<classes>
+			<class name="tests.CollegeAdvisorLoginTest">
+			</class>
 			<class name="tests.LoginTest">
 			</class>
 		</classes>
